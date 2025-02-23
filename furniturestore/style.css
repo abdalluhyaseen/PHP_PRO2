@@ -7,9 +7,9 @@ body {
   color: rgb(67, 41, 41);
 }
 nav {
-   z-index: 100;
-  position: fixed; 
-   width: 100%; 
+  z-index: 100;
+  position: fixed;
+  width: 100%;
   left: 0;
   display: flex;
   justify-content: space-between;
@@ -40,15 +40,15 @@ nav ul li a {
 nav ul li a:hover {
   color: #6b5240;
 }
-.small{
+.small {
   color: rgb(67, 41, 41);
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
   transition: color 0.3s ease;
-  margin-right:15px
+  margin-right: 15px;
 }
-.small:hover{
+.small:hover {
   color: #6b5240;
 }
 /* Hero Section */

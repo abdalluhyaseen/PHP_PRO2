@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - DECORA</title>
+    <title>Sign Up - DECORA</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,26 +15,29 @@
                 <img src="imges/logofurniture.png" alt="DECORA Logo">
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="cart.html">Cart</a></li>
-                
+                <li><a href="cart.php">Cart</a></li>
+               
             </ul>
         </nav>
     </header>
 
-    <!-- Login Form -->
+    <!--  Signup Form -->
     <section class="auth-section">
         <div class="auth-container">
-            <h2>Login</h2>
-            <form id="login-form">
+            <h2>Sign Up</h2>
+            <form action="login.php" id="signup-form">
+                <input type="text" id="name" placeholder="Enter your name" required>
                 <input type="email" id="email" placeholder="Enter your email" required>
                 <input type="password" id="password" placeholder="Enter your password" required>
-                <button type="submit">Login</button>
-                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+                <button type="submit">Sign Up</button>
+                <p>Already have an account? <a href="login.php">Login</a></p>
             </form>
+            
         </div>
     </section>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
