@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - DECORA</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 
@@ -15,10 +16,9 @@
                 <img src="imges/logofurniture.png" alt="DECORA Logo">
             </div>
             <ul>
-                <li><a href="index.php">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="cart.php">Cart</a></li>
-                
+                <li><a href="cart.html">Cart</a></li>
             </ul>
         </nav>
     </header>
@@ -35,6 +35,9 @@
             </form>
         </div>
     </section>
-    <script src="script.js"></script>
+
+    <script src="login.js">
+   
+    </script>
 </body>
 </html>
